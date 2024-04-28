@@ -1,0 +1,4 @@
+[console_scripts]
+HOWDI = HOwDI.module_select:main
+HOwDI = HOwDI.module_select:main
+howdi = HOwDI.module_select:main
