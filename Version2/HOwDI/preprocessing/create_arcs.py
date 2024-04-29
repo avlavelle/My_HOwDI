@@ -114,6 +114,11 @@ def create_arcs(geohubs, hubs_dir, create_fig=False, shpfile=None):
     hubA = gdf.join(geohubs.rename_axis("startHub"))
     hubB = gdf.join(geohubs.rename_axis("endHub"))
 
+    ## the next two lines are AV edits
+    hubA = gpd.GeoSeries(hubA['geometry'])
+    hubB = gpd.GeoSeries(hubB['geometry'])
+
+
     # create line from hubAA to hubB (for plotting purposes)
     gdf["LINE"] = [
         LineString([(a.x, a.y), (b.x, b.y)])
@@ -121,8 +126,11 @@ def create_arcs(geohubs, hubs_dir, create_fig=False, shpfile=None):
     ]
     gdf = gpd.GeoDataFrame(gdf, geometry="LINE").set_crs(epsg=epsg)
 
+    ## more AV edits
+    ## the line originally was:
+    ## gdf["mLength_euclid"] = hubA.distance(hubB)
     # get euclidian distance
-    gdf["mLength_euclid"] = hubA.distance(hubB)
+    gdf["mLength_euclid"] = hubA.geometry.distance(hubB.geometry)
 
     class _Connections:
         def __init__(self, hub):
