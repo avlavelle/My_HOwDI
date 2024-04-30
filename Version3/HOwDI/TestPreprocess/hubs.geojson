@@ -1,0 +1,564 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.499337,
+     29.18161
+    ]
+   },
+   "properties": {
+    "hub": "brazoria"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.359662,
+     28.954137
+    ]
+   },
+   "properties": {
+    "hub": "freeport"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -96.612162,
+     28.578226
+    ]
+   },
+   "properties": {
+    "hub": "chocolateBay"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.917548,
+     29.39013
+    ]
+   },
+   "properties": {
+    "hub": "texasCity"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.019373,
+     29.665784
+    ]
+   },
+   "properties": {
+    "hub": "laPorte"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.190236,
+     30.508358
+    ]
+   },
+   "properties": {
+    "hub": "sanJacinto"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.12382,
+     29.705228
+    ]
+   },
+   "properties": {
+    "hub": "deerPark"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.209208,
+     29.691075
+    ]
+   },
+   "properties": {
+    "hub": "pasadena"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.114653,
+     29.77606
+    ]
+   },
+   "properties": {
+    "hub": "channelview"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.890758,
+     29.847722
+    ]
+   },
+   "properties": {
+    "hub": "montBelvieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.977427,
+     29.735505
+    ]
+   },
+   "properties": {
+    "hub": "baytown"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.928872,
+     29.898862
+    ]
+   },
+   "properties": {
+    "hub": "portArthur"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.101846,
+     30.086046
+    ]
+   },
+   "properties": {
+    "hub": "beaumont"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.904117,
+     30.122863
+    ]
+   },
+   "properties": {
+    "hub": "orange"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.441207,
+     31.786562
+    ]
+   },
+   "properties": {
+    "hub": "elPaso"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.831628,
+     31.042972
+    ]
+   },
+   "properties": {
+    "hub": "vanHorn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -100.642859,
+     30.566734
+    ]
+   },
+   "properties": {
+    "hub": "sonora"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -102.077948,
+     31.997366
+    ]
+   },
+   "properties": {
+    "hub": "midland"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -99.747591,
+     32.44645
+    ]
+   },
+   "properties": {
+    "hub": "abilene"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.077148,
+     33.446674
+    ]
+   },
+   "properties": {
+    "hub": "texarkana"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.14667,
+     31.549333
+    ]
+   },
+   "properties": {
+    "hub": "waco"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.97853,
+     31.257822
+    ]
+   },
+   "properties": {
+    "hub": "centerville"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.403319,
+     27.76353
+    ]
+   },
+   "properties": {
+    "hub": "corpusChristi"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.23006,
+     26.204114
+    ]
+   },
+   "properties": {
+    "hub": "mcallen"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -99.497352,
+     27.5237
+    ]
+   },
+   "properties": {
+    "hub": "laredo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.367697,
+     29.758938
+    ]
+   },
+   "properties": {
+    "hub": "houston"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.495141,
+     29.4246
+    ]
+   },
+   "properties": {
+    "hub": "sanAntonio"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.7437,
+     30.271129
+    ]
+   },
+   "properties": {
+    "hub": "austin"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -96.796856,
+     32.776272
+    ]
+   },
+   "properties": {
+    "hub": "dallas"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -101.833824,
+     35.207219
+    ]
+   },
+   "properties": {
+    "hub": "amarillo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.489088,
+     25.914028
+    ]
+   },
+   "properties": {
+    "hub": "brownsville"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -96.307104,
+     30.595529
+    ]
+   },
+   "properties": {
+    "hub": "collegeStation"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.332746,
+     32.753177
+    ]
+   },
+   "properties": {
+    "hub": "fortWorth"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.727796,
+     31.117144
+    ]
+   },
+   "properties": {
+    "hub": "killeen"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.09493,
+     29.507454
+    ]
+   },
+   "properties": {
+    "hub": "leagueCity"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -101.879336,
+     33.563521
+    ]
+   },
+   "properties": {
+    "hub": "lubbock"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -102.367687,
+     31.845715
+    ]
+   },
+   "properties": {
+    "hub": "odessa"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.28643,
+     29.563976
+    ]
+   },
+   "properties": {
+    "hub": "pearland"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -100.440509,
+     31.464969
+    ]
+   },
+   "properties": {
+    "hub": "sanAngelo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.634946,
+     29.619679
+    ]
+   },
+   "properties": {
+    "hub": "sugarLand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.504686,
+     30.173419
+    ]
+   },
+   "properties": {
+    "hub": "theWoodlands"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.301062,
+     32.35126
+    ]
+   },
+   "properties": {
+    "hub": "tyler"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.502078,
+     33.900457
+    ]
+   },
+   "properties": {
+    "hub": "wichitaFalls"
+   }
+  }
+ ]
+}
