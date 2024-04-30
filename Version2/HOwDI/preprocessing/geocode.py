@@ -1,6 +1,6 @@
 import pandas as pd
 import geopandas as gpd
-##from geopy.geocoders import Nominatim  # necessary installation, unnecessary import
+from geopy.geocoders import Nominatim  # necessary installation, unnecessary import
 import csv
 from shapely.geometry import Point
 ##import geojson
@@ -41,6 +41,19 @@ def geocode_hubs(file="hubs.csv"):
 
     return geohubs
 """
+## AV edits, adding a get_county function
+def get_county(latitude,longitude):
+    geolocator = Nominatim(user_agent="HOwDI")
+    location = geolocator.reverse((latitude,longitude), exactly_one=True)
+    if location:
+        address = location.address
+        for word in address.split(","):
+            if ("County") in word:
+                county = word.lstrip()
+        return county
+    else:
+        return None
+    
 ##def geocode_hubs(file="hubs.csv",geojson_file_path="hubs.geojson"):
 def geocode_hubs(file="hub_dir/hubs.csv"):
     ## features = []
@@ -48,6 +61,8 @@ def geocode_hubs(file="hub_dir/hubs.csv"):
     geometry = [Point(xy) for xy in zip(hubs['longitude'],hubs['latitude'])]
 
     geohubs = gpd.GeoDataFrame(hubs, geometry=geometry)
+    geohubs["County"]= [get_county(latitude,longitude)
+                        for latitude,longitude in zip(hubs['latitude'],hubs['longitude'])]
     geohubs = geohubs.drop(columns=['latitude','longitude'])
     ##with open(file, 'r') as csvfile:
      ##   reader = csv.DictReader(csvfile)
