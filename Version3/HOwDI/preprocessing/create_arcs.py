@@ -102,9 +102,12 @@ def create_arcs(geohubs, hubs_dir, create_fig=False, shpfile=None):
         else:
             # TODO make generic
             us_county = gpd.read_file(shpfile)
-            tx_county = us_county[us_county["STATE_NAME"] == "Texas"]
-            tx = tx_county.dissolve().to_crs(epsg=epsg)
-            tx.plot(ax=ax, color="white", edgecolor="black")
+            ## AV edits
+            us = us_county.dissolve().to_crs(epsg=epsg)
+            us.plot(ax=ax, color="white", edgecolor="black")
+            ##tx_county = us_county[us_county["STATE_NAME"] == "Texas"]
+            ##tx = tx_county.dissolve().to_crs(epsg=epsg)
+            ##tx.plot(ax=ax, color="white", edgecolor="black")
 
     # get all possible combinations of size 2, output is list of tuples turned into a multiindex
     hubs_combinations = list(itertools.combinations(hubs, 2))

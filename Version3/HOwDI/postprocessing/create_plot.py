@@ -256,9 +256,13 @@ def create_plot(H):
     # get Texas plot
     us_county = gpd.read_file(H.shpfile)
     # us_county = gpd.read_file('US_COUNTY_SHPFILE/US_county_cont.shp')
-    tx_county = us_county[us_county["STATE_NAME"] == "Texas"]
-    tx = tx_county.dissolve()
-    tx.plot(ax=ax, color="white")
+    # AV EDITS
+    #tx_county = us_county[us_county["STATE_NAME"] == "Texas"]
+    #tx = tx_county.dissolve()
+    us = us_county.dissolve()
+    us.plot(ax=ax, color="white")
+    #tx.plot(ax=ax, color="white")
+    # END OF EDITS
 
     # Plot hubs
     hubs = distribution[distribution.type == "Point"]
