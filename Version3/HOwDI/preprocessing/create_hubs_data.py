@@ -28,7 +28,8 @@ def main():
             )
         else:
             model_hubs_original_path = Path(args.model_inputs_dir) / "hubs.csv"
-            model_hubs_original = pd.read_csv(model_hubs_original_path).set_index("hub")
+            model_hubs_original = pd.read_csv(model_hubs_original_path)
+            model_hubs_original = model_hubs_original.set_index("hub")
 
             # remove/add new hubs; index in the same order as geohubs so counties line up
             model_hubs = model_hubs_original.reindex(geohubs.index)
@@ -43,6 +44,7 @@ def main():
                     columns=["ng_usd_per_mmbtu", "e_usd_per_kwh", "capital_pm"],
                     errors="ignore",
                 )
+
                 model_hubs = (
                     model_hubs.reset_index().merge(pm, on=pm_column).set_index("hub")
                 )

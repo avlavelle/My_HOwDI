@@ -1,0 +1,92 @@
+hub,type,status,geometry,County
+brazoria,city,0,POINT (-95.4993375 29.18161),Brazoria County
+freeport,city,-1,POINT (-95.3596617 28.9541368),Brazoria County
+chocolateBay,city,-1,POINT (-96.61216172 28.5782264),Calhoun County
+texasCity,city,-1,POINT (-94.9175485 29.39013),Galveston County
+laPorte,city,-1,POINT (-95.0193729 29.6657838),Harris County
+sanJacinto,city,-1,POINT (-95.1902362 30.5083577),San Jacinto County
+deerPark,city,-1,POINT (-95.1238204 29.7052284),Harris County
+pasadena,city,-1,POINT (-95.2092076 29.6910753),Harris County
+channelview,city,-1,POINT (-95.1146533 29.7760599),Harris County
+montBelvieu,city,-1,POINT (-94.890758 29.8477222),Chambers County
+baytown,city,-1,POINT (-94.9774274 29.7355047),Harris County
+portArthur,city,-1,POINT (-93.9288723 29.8988618),Jefferson County
+beaumont,city,0,POINT (-94.1018461 30.0860459),Jefferson County
+orange,city,-1,POINT (-93.9041169 30.1228634),Orange County
+elPaso,city,0,POINT (-106.441207 31.7865623),El Paso County
+vanHorn,city,0,POINT (-104.831628 31.0429718),Culberson County
+sonora,city,0,POINT (-100.6428592 30.5667344),Sutton County
+midland,city,0,POINT (-102.077948 31.9973662),Midland County
+abilene,city,0,POINT (-99.7475905 32.44645),Taylor County
+texarkana,city,0,POINT (-94.07714831 33.44667445),Bowie County
+waco,city,0,POINT (-97.1466695 31.549333),McLennan County
+centerville,city,0,POINT (-95.9785301 31.2578221),Leon County
+corpusChristi,city,0,POINT (-97.4033191 27.7635302),Nueces County
+mcallen,city,0,POINT (-98.2300605 26.204114),Hidalgo County
+laredo,city,0,POINT (-99.497352 27.5236998),Webb County
+houston,city,1,POINT (-95.3676974 29.7589382),Harris County
+sanAntonio,city,1,POINT (-98.4951405 29.4246002),Bexar County
+austin,city,1,POINT (-97.7436995 30.2711286),Travis County
+dallas,city,1,POINT (-96.7968559 32.7762719),Dallas County
+amarillo,city,0,POINT (-101.833824 35.2072185),Potter County
+brownsville,city,0,POINT (-97.4890879 25.9140277),Cameron County
+collegeStation,city,0,POINT (-96.3071042 30.5955289),Brazos County
+fortWorth,city,0,POINT (-97.3327459 32.753177),Tarrant County
+killeen,city,0,POINT (-97.727796 31.1171441),Bell County
+leagueCity,city,0,POINT (-95.0949303 29.5074538),Galveston County
+lubbock,city,0,POINT (-101.879336 33.5635206),Lubbock County
+odessa,city,0,POINT (-102.367687 31.8457149),Ector County
+pearland,city,0,POINT (-95.2864299 29.5639758),Brazoria County
+sanAngelo,city,0,POINT (-100.4405094 31.4649685),Tom Green County
+sugarLand,city,0,POINT (-95.6349463 29.6196787),Fort Bend County
+theWoodlands,city,-1,POINT (-95.504686 30.1734194),Montgomery County
+tyler,city,0,POINT (-95.3010624 32.3512601),Smith County
+wichitaFalls,city,0,POINT (-98.5020777 33.9004572),Wichita County
+deerParkL,loves,0,POINT (-95.092708 29.706999),Harris County
+houston1L,loves,1,POINT (-95.269023 29.798591),Harris County
+hungerfordL,loves,0,POINT (-96.075801 29.390748),Wharton County
+wallerL,loves,0,POINT (-95.905556 30.064458),Harris County
+clevelandL,loves,0,POINT (-95.09128 30.354701),Liberty County
+houston2L,loves,0,POINT (-95.369817 29.797437),Harris County
+willisL,loves,0,POINT (-95.498411 30.436694),Montgomery County
+fairfieldL,loves,0,POINT (-96.182736 31.728217),Freestone County
+almaL,loves,0,POINT (-96.543987 32.287637),Ellis County
+hutchinsL,loves,0,POINT (-96.69378 32.623952),Dallas County
+dallas1L,loves,1,POINT (-96.754979 32.655868),Dallas County
+dallas2L,loves,0,POINT (-96.839275 32.640809),Dallas County
+rockwallL,loves,1,POINT (-96.419311 32.918189),Rockwall County
+annaL,loves,0,POINT (-96.584193 33.345047),Collin County
+dentonL,loves,0,POINT (-97.179456 33.263072),Denton County
+bridgeportL,loves,0,POINT (-97.737881 33.221219),Wise County
+rhomeL,loves,0,POINT (-97.484072 33.05703),Wise County
+weatherfordL,loves,0,POINT (-97.742837 32.742896),Parker County
+fortWorthL,loves,1,POINT (-97.317578 32.598737),Tarrant County
+midlothianL,loves,0,POINT (-97.011128 32.482947),Ellis County
+italy L,loves,0,POINT (-96.898726 32.193688),Ellis County
+hillsboroL,loves,0,POINT (-97.093528 32.00952),Hill County
+troyL,loves,0,POINT (-97.312105 31.191227),Bell County
+sanAntonio1L,loves,1,POINT (-98.617826 29.31101),Bexar County
+sanAntonio2L,loves,0,POINT (-98.361512 29.448396),Bexar County
+sanAntonio3L,loves,0,POINT (-98.617826 29.31101),Bexar County
+nataliaL,loves,0,POINT (-98.84545 29.184729),Medina County
+baytownL,loves,-1,POINT (-95.032623 29.797963),Harris County
+katyL,loves,0,POINT (-95.881907 29.779813),Waller County
+weimarL,loves,0,POINT (-96.77705 29.69051),Colorado County
+lulingL,loves,0,POINT (-97.592282 29.653691),Caldwell County
+seguinL,loves,0,POINT (-98.034476 29.560811),Guadalupe County
+comfortL,loves,0,POINT (-98.903241 29.98203),Kendall County
+sonoraL,loves,0,POINT (-100.585636 30.571142),Sutton County
+fortStocktonL,loves,0,POINT (-102.852146 30.893377),Pecos County
+vanHornL,loves,0,POINT (-104.819253 31.040102),Culberson County
+elPasoL,loves,-1,POINT (-106.237409 31.65976),El Paso County
+anthonyL,loves,0,POINT (-106.581219 31.997879),El Paso County
+lasCrucesL,loves,0,POINT (-106.921622 32.269463),Doña Ana County
+lordsburgL,loves,0,POINT (-108.73557 32.353872),Hidalgo County
+willcoxL,loves,0,POINT (-109.847324 32.266928),Cochise County
+bensonL,loves,0,POINT (-110.344844 31.962406),Cochise County
+eloyL,loves,0,POINT (-111.672093 32.80643),Pinal County
+chandlerL,loves,0,POINT (-111.962298 33.279875),Maricopa County
+tollesonL,loves,0,POINT (-112.23908 33.457995),Maricopa County
+buckeyeL,loves,0,POINT (-112.591725 33.431284),Maricopa County
+quartzsiteL,loves,0,POINT (-114.241226 33.657299),La Paz County
+coachellaL,loves,1,POINT (-116.171266 33.717419),Riverside County
